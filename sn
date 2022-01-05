@@ -187,7 +187,7 @@ def main():
 
     while flag:
         pygame.time.delay(50)
-        clock.tick(10)
+        clock.tick(5)
         s.move()
         if s.body[0].pos == snack.pos:
             s.addCube()
